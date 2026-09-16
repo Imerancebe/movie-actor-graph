@@ -1,0 +1,72 @@
+2026-09-01 15:36:36.759+0000 INFO  Logging config in use: File 'D:\bigmaths\neo4j\conf\user-logs.xml'
+2026-09-01 15:36:36.766+0000 INFO  Starting...
+2026-09-01 15:36:37.591+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-01 15:36:38.386+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-01 15:36:41.045+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-01 15:36:41.075+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2026-09-01 15:36:43.124+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-01 15:36:43.126+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-01 15:36:43.127+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-01 15:36:43.127+0000 INFO  name: system
+2026-09-01 15:36:43.127+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-01 15:36:43.127+0000 INFO  Started.
+2026-09-05 23:22:47.771+0000 INFO  Logging config in use: File 'D:\bigmaths\neo4j\conf\user-logs.xml'
+2026-09-05 23:22:47.783+0000 INFO  Starting...
+2026-09-05 23:23:05.920+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-05 23:23:07.005+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-05 23:23:09.253+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-05 23:23:09.308+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2026-09-05 23:23:11.499+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-05 23:23:11.500+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-05 23:23:11.502+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-05 23:23:11.502+0000 INFO  name: system
+2026-09-05 23:23:11.502+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-05 23:23:11.502+0000 INFO  Started.
+2026-09-11 15:25:09.174+0000 INFO  Logging config in use: File 'D:\bigmaths\neo4j\conf\user-logs.xml'
+2026-09-11 15:25:09.183+0000 INFO  Starting...
+2026-09-11 15:25:10.091+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-11 15:25:11.068+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-11 15:25:13.208+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-11 15:25:13.263+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2026-09-11 15:25:15.386+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-11 15:25:15.386+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-11 15:25:15.389+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-11 15:25:15.389+0000 INFO  name: system
+2026-09-11 15:25:15.389+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-11 15:25:15.389+0000 INFO  Started.
+2026-09-12 12:20:46.841+0000 INFO  Logging config in use: File 'D:\bigmaths (2)\neo4j\conf\user-logs.xml'
+2026-09-12 12:20:46.841+0000 INFO  Starting...
+2026-09-12 12:20:47.673+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-12 12:20:48.751+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-12 12:20:50.927+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-12 12:20:50.973+0000 INFO  Bolt enabled on steamcdn-a.akamaihd.net:7687.
+2026-09-12 12:20:52.924+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-12 12:20:52.924+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-12 12:20:52.924+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-12 12:20:52.924+0000 INFO  name: system
+2026-09-12 12:20:52.924+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-12 12:20:52.924+0000 INFO  Started.
+2026-09-13 15:10:52.666+0000 INFO  Logging config in use: File 'D:\bigmaths (2)\neo4j\conf\user-logs.xml'
+2026-09-13 15:10:52.686+0000 INFO  Starting...
+2026-09-13 15:10:53.715+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-13 15:10:55.434+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-13 15:10:58.484+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-13 15:10:58.528+0000 INFO  Bolt enabled on steamcdn-a.akamaihd.net:7687.
+2026-09-13 15:11:00.588+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-13 15:11:00.588+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-13 15:11:00.588+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-13 15:11:00.588+0000 INFO  name: system
+2026-09-13 15:11:00.588+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-13 15:11:00.588+0000 INFO  Started.
+2026-09-16 05:58:17.034+0000 INFO  Logging config in use: File 'D:\bigmaths3\neo4j\conf\user-logs.xml'
+2026-09-16 05:58:17.044+0000 INFO  Starting...
+2026-09-16 05:58:17.865+0000 INFO  This instance is ServerId{1d60b665} (1d60b665-7b67-4ac4-a89f-dac9840a564f)
+2026-09-16 05:58:18.871+0000 INFO  ======== Neo4j 5.26.30 ========
+2026-09-16 05:58:20.874+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2026-09-16 05:58:20.919+0000 INFO  Bolt enabled on steamcdn-a.akamaihd.net:7687.
+2026-09-16 05:58:22.822+0000 INFO  HTTP enabled on 127.0.0.1:7474.
+2026-09-16 05:58:22.824+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-16 05:58:22.826+0000 INFO  id: 32EDBFDCC648FCE3529EDFE5CC7B0995964120C6F88C2DE2EBC51FCFB04A5AB6
+2026-09-16 05:58:22.826+0000 INFO  name: system
+2026-09-16 05:58:22.826+0000 INFO  creationDate: 2026-09-01T15:36:39.542Z
+2026-09-16 05:58:22.826+0000 INFO  Started.
