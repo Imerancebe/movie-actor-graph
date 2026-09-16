@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电影演员关系图谱可视化分析系统</title>
+<link rel="stylesheet" href="/static/css/style.css">
+<script src="/static/js/vendor/echarts.min.js"></script>
+<script>if (typeof echarts === "undefined") document.write('<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"><\/script>');</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">MG</span>
+    <div>
+      <h1>电影演员关系图谱</h1>
+      <p>Movie Actor Graph · 大数据综合实践</p>
+    </div>
+  </div>
+  <div class="searchbox">
+    <input id="searchInput" type="text" placeholder="搜索演员 / 电影名称…" autocomplete="off">
+    <div id="searchResults" class="search-results" hidden></div>
+  </div>
+  <div class="stats-cards" id="statsCards"></div>
+</header>
+
+<div class="main">
+  <aside class="panel left">
+    <section>
+      <h2>影响力榜 <small>PageRank</small></h2>
+      <ol id="rankPagerank" class="rank-list"></ol>
+    </section>
+    <section>
+      <h2>合作网络榜 <small>度中心性</small></h2>
+      <ol id="rankDegree" class="rank-list"></ol>
+    </section>
+    <section>
+      <h2>合作社区 <small>LPA</small></h2>
+      <div id="communityList" class="community-list"></div>
+    </section>
+    <section>
+      <h2>合作路径查询</h2>
+      <div class="path-form">
+        <select id="pathFrom"></select>
+        <div class="path-arrow">→</div>
+        <select id="pathTo"></select>
+        <button id="pathBtn">查询</button>
+      </div>
+      <div id="pathResult" class="path-result"></div>
+    </section>
+  </aside>
+
+  <main class="chart-area">
+    <div class="chart-toolbar">
+      <button id="btnOverview" class="active">总览图谱</button>
+      <button id="btnSna">网络分析</button>
+      <button id="btnBack" hidden>← 返回总览</button>
+      <span id="chartLabel" class="chart-label">全网络核心子图（按影响力采样）</span>
+    </div>
+    <div id="graph" class="graph"></div>
+
+    <!-- SNA 网络分析面板（FR-U7）：覆盖图谱区，关闭后返回 -->
+    <div id="snaPanel" class="sna-panel" hidden>
+      <div class="sna-head">
+        <h3>社交网络分析 <small>Social Network Analysis</small></h3>
+        <button id="snaClose" class="sna-close">×</button>
+      </div>
+      <div class="sna-scroll">
+        <section>
+          <h2>小世界特性 <small>Small World · FR-M7</small></h2>
+          <div id="snaCards" class="sna-cards"></div>
+          <div id="snaWorldNote" class="sna-note"></div>
+        </section>
+        <section>
+          <h2>度分布 <small>Scale-Free · FR-M8</small></h2>
+          <div id="snaDegreeChart" class="sna-chart"></div>
+        </section>
+        <section>
+          <h2>K-core 核心边缘结构 <small>Batagelj-Zaversnik · FR-M9</small></h2>
+          <div id="snaKcoreChart" class="sna-chart sna-chart-half"></div>
+          <h4>最核心圈成员（K 壳 = 最大值）</h4>
+          <div id="snaKcoreMembers" class="chip-list"></div>
+        </section>
+        <section>
+          <h2>合作网络年代演化 <small>Temporal Evolution · FR-M10</small></h2>
+          <div id="snaEvoChart" class="sna-chart"></div>
+        </section>
+        <section>
+          <h2>介数中心性 · 桥接演员榜 <small>Brandes · FR-M8</small></h2>
+          <ol id="snaBetweenness" class="rank-list sna-rank"></ol>
+          <p class="sna-tip">介数中心性衡量演员连接不同社区的能力（结构洞），基于度数 Top-1000 核心子图精确计算并归一化。</p>
+        </section>
+        <section>
+          <h2>链接预测对比实验 <small>Link Prediction · FR-M11</small></h2>
+          <div id="snaPredChart" class="sna-chart sna-chart-half"></div>
+          <h4>五算法评估（隐藏 20% 合作边还原实验）</h4>
+          <div id="snaPredTable" class="sna-table-wrap"></div>
+          <h4>最高分潜在合作对（算法 <span id="snaPredBest"></span>）</h4>
+          <div id="snaPredPairs" class="pred-pair-list"></div>
+          <p class="sna-tip">随机隐藏 20% 合作关系（同分修正秩和法 AUC），五种算法全部自主实现：共同邻居类指标利用「朋友的朋友」信号大幅优于仅看人气的优先连接（PA），说明合作的形成由圈子结构而非单纯知名度驱动。</p>
+        </section>
+        <section>
+          <h2>演员嵌入空间 <small>DeepWalk 矩阵分解视角 · FR-M12</small></h2>
+          <div id="snaEmbChart" class="sna-chart"></div>
+          <div id="snaEmbNote" class="sna-note"></div>
+          <p class="sna-tip">自主实现表示学习：度数 Top-5000 核心子图上按合作次数加权随机游走，构建窗口共现 PPMI 矩阵后截断 SVD 得 64 维嵌入；PCA 降到平面后按 LPA 社区着色，检验嵌入是否恢复社区结构。点击任意演员可在右侧看到基于嵌入的相似演员推荐（联动 64 维向量余弦检索）。</p>
+        </section>
+        <section>
+          <h2>电影类型深度挖掘 <small>Genre Mining · FR-M13</small></h2>
+          <div id="snaGenreCoocChart" class="sna-chart sna-chart-half"></div>
+          <h4>类型构成的年代演化（各年代份额）</h4>
+          <div id="snaGenreEvoChart" class="sna-chart"></div>
+          <h4>多面手 vs 专一型演员（Shannon 类型多样性）</h4>
+          <div id="snaGenreSpectrum" class="spectrum-grid"></div>
+          <p class="sna-tip">挖掘非拓扑属性：同一片多类型按 1/类型数 加权累计成演员类型构成 p(g)，Shannon 指数 H = −Σp·log₂p 衡量「戏路宽度」；H 高为跨类型发展的多面手，H 低为深耕单一类型的专一型。类型画像已回写 Neo4j，演员详情页可见。</p>
+        </section>
+      </div>
+    </div>
+
+    <div id="loading" class="loading" hidden>加载中…</div>
+  </main>
+
+  <aside class="panel right drawer" id="drawer" hidden>
+    <button class="drawer-close" id="drawerClose">×</button>
+    <div id="drawerContent"></div>
+  </aside>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+{
+  "nodes": 22313,
+  "edges": 110822,
+  "avgDegree": 9.93,
+  "density": 0.0004452,
+  "triangles": 299737,
+  "globalClustering": 0.781172,
+  "avgLocalClustering": 0.957469,
+  "avgPathLength": 11.0933,
+  "diameter": 33,
+  "sampledSources": 63,
+  "sampledPairs": 183582,
+  "randomBaselineClustering": 0.00044518,
+  "randomBaselineAvgPath": 4.3612,
+  "giantComponent": {
+    "size": 2915,
+    "ratio": 0.130641,
+    "components": 1155
+  },
+  "kcore": {
+    "maxCore": 12,
+    "coreSize": 11,
+    "shells": {
+      "0": 1245,
+      "1": 1792,
+      "2": 2108,
+      "3": 2262,
+      "4": 2342,
+      "5": 2387,
+      "6": 2458,
+      "7": 2508,
+      "8": 2576,
+      "9": 2574,
+      "10": 35,
+      "11": 15,
+      "12": 11
+    }
+  },
+  "degree": {
+    "maxDegree": 92,
+    "top1pctShare": 0.036509,
+    "powerLawSlope": -2.2539
+  },
+  "betweenness": {
+    "subgraphSize": 1000,
+    "top": [
+      {
+        "id": "nm0047962",
+        "name": "Chieko Baishō",
+        "score": 0.026319
+      },
+      {
+        "id": "nm3271373",
+        "name": "Tôri Matsuzaka",
+        "score": 0.017269
+      },
+      {
+        "id": "nm0632656",
+        "name": "Naomi Nishida",
+        "score": 0.016919
+      },
+      {
+        "id": "nm0847302",
+        "name": "Mieko Takamine",
+        "score": 0.016687
+      },
+      {
+        "id": "nm0051765",
+        "name": "Tsumasaburō Bandō",
+        "score": 0.010524
+      },
+      {
+        "id": "nm0044455",
+        "name": "Ryônosuke Azuma",
+        "score": 0.010009
+      },
+      {
+        "id": "nm2400341",
+        "name": "Fumino Kimura",
+        "score": 0.009923
+      },
+      {
+        "id": "nm0794388",
+        "name": "Sanae Mitsuoka",
+        "score": 0.009124
+      },
+      {
+        "id": "nm1186215",
+        "name": "Hiroshi Sekiguchi",
+        "score": 0.008484
+      },
+      {
+        "id": "nm0457953",
+        "name": "Nijiko Kiyokawa",
+        "score": 0.008347
+      }
+    ]
+  }
+}

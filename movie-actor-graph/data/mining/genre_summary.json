@@ -1,0 +1,261 @@
+{
+  "nGenres": 22,
+  "nCooccurrencePairs": 131,
+  "nProfiledActors": 21520,
+  "avgShannonDiversity": 0.6821,
+  "minMoviesForProfile": 5,
+  "topGenrePairs": [
+    {
+      "a": "Comedy",
+      "b": "Drama",
+      "count": 189
+    },
+    {
+      "a": "Drama",
+      "b": "Romance",
+      "count": 136
+    },
+    {
+      "a": "Crime",
+      "b": "Drama",
+      "count": 100
+    },
+    {
+      "a": "Drama",
+      "b": "Thriller",
+      "count": 98
+    },
+    {
+      "a": "Action",
+      "b": "Drama",
+      "count": 94
+    },
+    {
+      "a": "Comedy",
+      "b": "Romance",
+      "count": 94
+    },
+    {
+      "a": "Action",
+      "b": "Adventure",
+      "count": 62
+    },
+    {
+      "a": "Horror",
+      "b": "Thriller",
+      "count": 61
+    },
+    {
+      "a": "Action",
+      "b": "Comedy",
+      "count": 55
+    },
+    {
+      "a": "Drama",
+      "b": "Mystery",
+      "count": 54
+    }
+  ],
+  "topGenres": [
+    {
+      "genre": "Drama",
+      "movieCount": 1287
+    },
+    {
+      "genre": "Comedy",
+      "movieCount": 639
+    },
+    {
+      "genre": "Action",
+      "movieCount": 307
+    },
+    {
+      "genre": "Thriller",
+      "movieCount": 270
+    },
+    {
+      "genre": "Horror",
+      "movieCount": 247
+    },
+    {
+      "genre": "Romance",
+      "movieCount": 237
+    },
+    {
+      "genre": "Crime",
+      "movieCount": 188
+    },
+    {
+      "genre": "Adventure",
+      "movieCount": 152
+    }
+  ],
+  "generalists": [
+    {
+      "actorId": "nm0000616",
+      "name": "Eric Roberts",
+      "movieCount": 6,
+      "shannonDiversity": 2.7439,
+      "genreRichness": 8,
+      "topGenres": "Drama;Sci-Fi;Thriller"
+    },
+    {
+      "actorId": "nm1302330",
+      "name": "Murli Sharma",
+      "movieCount": 5,
+      "shannonDiversity": 2.5899,
+      "genreRichness": 7,
+      "topGenres": "Action;Drama;Crime"
+    },
+    {
+      "actorId": "nm1368581",
+      "name": "Salim Kumar",
+      "movieCount": 7,
+      "shannonDiversity": 2.5246,
+      "genreRichness": 7,
+      "topGenres": "Drama;Comedy;Romance"
+    },
+    {
+      "actorId": "nm6489058",
+      "name": "Yogi Babu",
+      "movieCount": 5,
+      "shannonDiversity": 2.4649,
+      "genreRichness": 6,
+      "topGenres": "Thriller;Drama;Horror"
+    },
+    {
+      "actorId": "nm2212823",
+      "name": "Duleeka Marapana",
+      "movieCount": 8,
+      "shannonDiversity": 2.3942,
+      "genreRichness": 7,
+      "topGenres": "Drama;Comedy;Action"
+    },
+    {
+      "actorId": "nm1259084",
+      "name": "Manoj Joshi",
+      "movieCount": 5,
+      "shannonDiversity": 2.3496,
+      "genreRichness": 6,
+      "topGenres": "Comedy;Drama;Romance"
+    },
+    {
+      "actorId": "nm4519769",
+      "name": "Buddhika Jayaratne",
+      "movieCount": 5,
+      "shannonDiversity": 2.1739,
+      "genreRichness": 5,
+      "topGenres": "Drama;Romance;Thriller"
+    },
+    {
+      "actorId": "nm7855374",
+      "name": "Darbha Appaji Ambarisha",
+      "movieCount": 5,
+      "shannonDiversity": 2.1628,
+      "genreRichness": 6,
+      "topGenres": "Comedy;Drama;Thriller"
+    },
+    {
+      "actorId": "nm5825055",
+      "name": "Rajitha Hiran Chamikara",
+      "movieCount": 6,
+      "shannonDiversity": 2.119,
+      "genreRichness": 6,
+      "topGenres": "Comedy;Drama;Thriller"
+    },
+    {
+      "actorId": "nm2791178",
+      "name": "Giriraj Kaushalya",
+      "movieCount": 5,
+      "shannonDiversity": 2.1166,
+      "genreRichness": 6,
+      "topGenres": "Drama;Family;War"
+    }
+  ],
+  "specialists": [
+    {
+      "actorId": "nm0051765",
+      "name": "Tsumasaburō Bandō",
+      "movieCount": 28,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2363115",
+      "name": "Zen'ichirō Yasuda",
+      "movieCount": 16,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm0605299",
+      "name": "Shizuko Mori",
+      "movieCount": 15,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2153938",
+      "name": "Naminosuke Horikawa",
+      "movieCount": 13,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2418329",
+      "name": "Monjûrô Onoe",
+      "movieCount": 11,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm0441102",
+      "name": "Tsuneo Katagiri",
+      "movieCount": 11,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2383070",
+      "name": "Mitsuo Namino",
+      "movieCount": 10,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm0157374",
+      "name": "Kyôko Chigusa",
+      "movieCount": 9,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2361483",
+      "name": "Seitarô Hayashi",
+      "movieCount": 9,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    },
+    {
+      "actorId": "nm2386632",
+      "name": "Kikuya Okada",
+      "movieCount": 9,
+      "shannonDiversity": 0.0,
+      "genreRichness": 1,
+      "topGenres": "Drama"
+    }
+  ],
+  "eraRange": [
+    1910,
+    2020
+  ]
+}

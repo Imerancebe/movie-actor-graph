@@ -1,0 +1,22 @@
+{
+  "algorithm": "DeepWalk-MF（加权游走 + PPMI + 截断SVD，自主实现）",
+  "dim": 64,
+  "topN": 5000,
+  "walksPerNode": 6,
+  "walkLength": 50,
+  "window": 3,
+  "seed": 42,
+  "subgraphNodes": 5000,
+  "subgraphEdges": 16997,
+  "ppmiEntries": 136328,
+  "pcaExplainedVariance": 0.1457,
+  "linkPrediction": {
+    "candidates": 156615,
+    "positives": 22157,
+    "coverageOfCore": 0.1934,
+    "aaAuc": 0.9975,
+    "embeddingAuc": 0.4879,
+    "aaAucInCore": 0.9928,
+    "embeddingAucInCore": 0.7934
+  }
+}

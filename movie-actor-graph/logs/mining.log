@@ -1,0 +1,38 @@
+[load] CO_ACTOR å•å‘è¾¹ 110822
+[pagerank] iter=1 delta=inf
+[pagerank] iter=2 delta=1.103e-02
+[pagerank] iter=3 delta=3.223e-03
+[pagerank] iter=4 delta=1.784e-03
+[pagerank] iter=5 delta=1.188e-03
+[pagerank] iter=6 delta=8.202e-04
+[pagerank] iter=7 delta=5.811e-04
+[pagerank] iter=8 delta=4.199e-04
+[pagerank] iter=9 delta=3.084e-04
+[pagerank] iter=10 delta=2.294e-04
+[pagerank] iter=11 delta=1.725e-04
+[pagerank] iter=12 delta=1.308e-04
+[pagerank] iter=13 delta=9.994e-05
+[pagerank] iter=14 delta=7.685e-05
+[pagerank] iter=15 delta=5.947e-05
+[pagerank] Top5 = [('nm0051765', 7.861294561890876), ('nm0993695', 5.0061561216363355), ('nm0434595', 4.9576870427923305), ('nm0406737', 4.918750013679778), ('nm0000616', 4.7674674130461465)]
+[lpa] iter=1 changed=20088
+[lpa] iter=2 changed=6968
+[lpa] iter=3 changed=4485
+[lpa] iter=4 changed=3249
+[lpa] iter=5 changed=2550
+[lpa] iter=6 changed=1970
+[lpa] iter=7 changed=1314
+[lpa] iter=8 changed=1187
+[lpa] iter=9 changed=1056
+[lpa] iter=10 changed=966
+[lpa] iter=11 changed=895
+[lpa] iter=12 changed=839
+[lpa] ç¤¾åŒºæ•° = 1414
+[metrics] æ¼”å‘˜æŒ‡æ ‡ 22313 æ¡
+[predict] è¦†ç›–æ¼”å‘˜ 12445ï¼Œé¢„æµ‹è®°å½• 119089
+[out] data/mining/actor_metrics.csv / predictions.csv
+[write] æ¼”å‘˜æŒ‡æ ‡å›å†™: 22313
+[done] æŒ–æ˜å®Œæˆ
+³É¹¦: ÒÑÖÕÖ¹ PID 2384 (ÊôÓÚ PID 20116 ×Ó½ø³Ì)µÄ½ø³Ì¡£
+³É¹¦: ÒÑÖÕÖ¹ PID 20116 (ÊôÓÚ PID 21344 ×Ó½ø³Ì)µÄ½ø³Ì¡£
+³É¹¦: ÒÑÖÕÖ¹ PID 21344 (ÊôÓÚ PID 3596 ×Ó½ø³Ì)µÄ½ø³Ì¡£

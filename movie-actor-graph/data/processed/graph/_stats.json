@@ -1,0 +1,11 @@
+{
+  "actor_nodes": 22313,
+  "movie_nodes": 2500,
+  "total_nodes": 24813,
+  "acted_in_edges": 25000,
+  "coactor_edges": 110822,
+  "total_edges": 135822,
+  "avg_coactor_degree": 9.93,
+  "top_movies_param": 2500,
+  "max_actors_per_movie": 15
+}

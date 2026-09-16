@@ -1,0 +1,233 @@
+{
+  "protocol": {
+    "totalEdges": 110822,
+    "trainEdges": 88658,
+    "testEdges": 22164,
+    "candidatePairs": 156615,
+    "positivePairs": 22157,
+    "negativePairs": 134458,
+    "recoverableRatio": 0.9997,
+    "testRatio": 0.2,
+    "seed": 42
+  },
+  "algorithms": [
+    {
+      "name": "CN",
+      "formula": "|N(u)∩N(v)|",
+      "auc": 0.9897,
+      "precisionAt": {
+        "100": 0.9711,
+        "500": 0.9249
+      }
+    },
+    {
+      "name": "Jaccard",
+      "formula": "|∩|/|∪|",
+      "auc": 0.9947,
+      "precisionAt": {
+        "100": 1.0,
+        "500": 1.0
+      }
+    },
+    {
+      "name": "AA-log",
+      "formula": "Σ1/ln(deg)",
+      "auc": 0.9975,
+      "precisionAt": {
+        "100": 1.0,
+        "500": 0.998
+      }
+    },
+    {
+      "name": "AA-sqrt",
+      "formula": "Σ1/√deg（05生产变体）",
+      "auc": 0.9981,
+      "precisionAt": {
+        "100": 1.0,
+        "500": 1.0
+      }
+    },
+    {
+      "name": "PA",
+      "formula": "deg(u)·deg(v)",
+      "auc": 0.2476,
+      "precisionAt": {
+        "100": 0.13,
+        "500": 0.101
+      }
+    }
+  ],
+  "bestAlgorithm": "AA-sqrt",
+  "topPredictions": [
+    {
+      "a": {
+        "id": "nm2395335",
+        "name": "Ryūsui Iwami"
+      },
+      "b": {
+        "id": "nm5181684",
+        "name": "Kotonosuke Nakamura"
+      },
+      "score": 2.4841,
+      "commonNeighbors": [
+        "Tsumasaburō Bandō",
+        "Naminosuke Horikawa",
+        "Zen'ichirō Yasuda"
+      ],
+      "commonCount": 12
+    },
+    {
+      "a": {
+        "id": "nm2417901",
+        "name": "Tamatarō Ichikawa"
+      },
+      "b": {
+        "id": "nm2749076",
+        "name": "Hideko Yamamoto"
+      },
+      "score": 2.3915,
+      "commonNeighbors": [
+        "Tsumasaburō Bandō",
+        "Shizuko Mori",
+        "Kakô Ichikawa"
+      ],
+      "commonCount": 8
+    },
+    {
+      "a": {
+        "id": "nm2386430",
+        "name": "Yôjiro Bando"
+      },
+      "b": {
+        "id": "nm5729867",
+        "name": "Kichimatsu Nakamura"
+      },
+      "score": 2.3378,
+      "commonNeighbors": [
+        "Shizuko Mori",
+        "Ryūsui Iwami",
+        "Masatarō Nakamura"
+      ],
+      "commonCount": 10
+    },
+    {
+      "a": {
+        "id": "nm10458435",
+        "name": "Sigismund Achenbach"
+      },
+      "b": {
+        "id": "nm1950214",
+        "name": "Hans Werder"
+      },
+      "score": 2.2844,
+      "commonNeighbors": [
+        "Melitta Ferrow",
+        "Hella Thornegg",
+        "Ernst Pittschau"
+      ],
+      "commonCount": 7
+    },
+    {
+      "a": {
+        "id": "nm1655798",
+        "name": "Sadako Ikawa"
+      },
+      "b": {
+        "id": "nm6635410",
+        "name": "Sumiko Yamashita"
+      },
+      "score": 2.2646,
+      "commonNeighbors": [
+        "Ryônosuke Azuma",
+        "Dôjurô Kataoka",
+        "Kiyoko Izumi"
+      ],
+      "commonCount": 11
+    },
+    {
+      "a": {
+        "id": "nm2386632",
+        "name": "Kikuya Okada"
+      },
+      "b": {
+        "id": "nm2389894",
+        "name": "Kenichi Takase"
+      },
+      "score": 2.1818,
+      "commonNeighbors": [
+        "Tsumasaburō Bandō",
+        "Naminosuke Horikawa",
+        "Mitsuo Namino"
+      ],
+      "commonCount": 10
+    },
+    {
+      "a": {
+        "id": "nm8300354",
+        "name": "D.B. Gangodathenna"
+      },
+      "b": {
+        "id": "nm8358488",
+        "name": "Anusha Damayanthi"
+      },
+      "score": 2.1281,
+      "commonNeighbors": [
+        "Rajitha Hiran Chamikara",
+        "Cleatus Mendis",
+        "Wilson Karunaratne"
+      ],
+      "commonCount": 11
+    },
+    {
+      "a": {
+        "id": "nm1296300",
+        "name": "Kangyō Nakamura"
+      },
+      "b": {
+        "id": "nm2630079",
+        "name": "Kiyoshi Kagawa"
+      },
+      "score": 2.0574,
+      "commonNeighbors": [
+        "Dôjurô Kataoka",
+        "Kiyoko Izumi",
+        "Rokurô Akashi"
+      ],
+      "commonCount": 9
+    },
+    {
+      "a": {
+        "id": "nm1698868",
+        "name": "Enshô Jitsukawa"
+      },
+      "b": {
+        "id": "nm2418329",
+        "name": "Monjûrô Onoe"
+      },
+      "score": 2.0334,
+      "commonNeighbors": [
+        "Dôjurô Kataoka",
+        "Hôshô Bandô",
+        "Rokurô Akashi"
+      ],
+      "commonCount": 9
+    },
+    {
+      "a": {
+        "id": "nm2389777",
+        "name": "Sennosuke Iwai"
+      },
+      "b": {
+        "id": "nm2419625",
+        "name": "Saburō Kojima"
+      },
+      "score": 1.9984,
+      "commonNeighbors": [
+        "Tsumasaburō Bandō",
+        "Shizuko Mori",
+        "Zen'ichirō Yasuda"
+      ],
+      "commonCount": 10
+    }
+  ]
+}

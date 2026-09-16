@@ -1,0 +1,117 @@
+INFO:     127.0.0.1:60558 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60560 - "GET /api/rank/pagerank?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60565 - "GET /api/rank/pagerank?limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /static/css/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /static/js/vendor/echarts.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52410 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52410 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58654 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62262 - "GET /api/actor/search?name=Roberts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58813 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58813 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49799 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58813 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49799 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58813 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52168 - "GET /api/rank/pagerank?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52170 - "GET /api/actor/nm0051765/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52172 - "GET /api/actor/nm0051765/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52175 - "GET /api/predict/nm0051765?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63307 - "GET /api/graph/overview?limit=500&community=110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63307 - "GET /api/path?from=nm0051765&to=nm5083230 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53763 - "GET /api/predict/nm0051765?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53830 - "GET /api/actor/nm0051765/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56829 - "GET /api/actor/nm0051765/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60091 - "GET /api/graph/overview?limit=500&community=110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55267 - "GET /api/overview?limit=500&community=110 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55269 - "GET /api/overview?limit=500 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55271 - "GET /api/graph/overview?limit=500&community=110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55273 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /static/css/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64028 - "GET /static/js/vendor/echarts.min.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64028 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64028 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64028 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51035 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62908 - "GET /api/graph/overview?limit=500&community=110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /static/js/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60104 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60104 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60104 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52030 - "GET /api/graph/overview?limit=500&community=110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53722 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /static/css/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /static/js/vendor/echarts.min.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49639 - "GET /static/js/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49639 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /%40vite/client HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49639 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49639 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61022 - "GET /api/predict/nm0059461?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53558 - "GET /api/actor/nm0059461/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65267 - "GET /api/actor/nm0059461/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52920 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52922 - "GET /api/graph/overview?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52924 - "GET /api/rank/pagerank?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52926 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52929 - "GET /api/predict/nm0051765?limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52931 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51804 - "GET /api/predict/nm0051765?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61668 - "GET /api/actor/nm0051765/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60148 - "GET /api/actor/nm0051765/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52173 - "GET /api/actor/search?name=j%27a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61371 - "GET /api/actor/search?name=jack HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52173 - "GET /api/actor/search?name=jack HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61371 - "GET /api/actor/nm0000329/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52173 - "GET /api/actor/nm0000329/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61371 - "GET /api/predict/nm0000329?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62292 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62292 - "GET /static/css/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60349 - "GET /static/js/vendor/echarts.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62292 - "GET /static/js/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62292 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60349 - "GET /api/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60349 - "GET /api/graph/overview?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62292 - "GET /api/rank/pagerank?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60349 - "GET /api/rank/degree?limit=15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52352 - "GET /api/communities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka%27c%27l HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka%27c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka%27c%27k HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka%27c%27k%27i%27e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=ka%27c%27k%27i HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=j%27a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=jack HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=jacki HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=jackie HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /api/actor/search?name=jackie HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49638 - "GET /api/actor/nm0000329/neighbors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49638 - "GET /api/actor/nm0000329/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49638 - "GET /api/predict/nm0000329?limit=6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64873 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64880 - "GET /api/sna/metrics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64880 - "GET /api/sna/degree-distribution HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64880 - "GET /api/sna/evolution HTTP/1.1" 404 Not Found
